@@ -1,0 +1,15 @@
+#CartContent {
+  width: 100%;
+}
+
+#CartContent .row {
+  display: flex;
+  flex-direction: row;
+}
+
+#CartContent .row > * {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: flex-start;
+}
